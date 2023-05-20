@@ -23,7 +23,7 @@ app.use(cors());
 
 
 // Stripe Payment
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, './index.html')));
 
 // Endpoint to create a payment intent
 
