@@ -1,5 +1,8 @@
 {
   "version" : 2,
+  "buildCommand": "next build",
+  "cleanUrls": true,
+  "framework": "expressjs"
   "build" : [
     {"src" : "*.js", "use" : "@vercel/node" }
   ],
